@@ -1,0 +1,1 @@
+ln -s /vagrant/${1:-public}/dashboard.js /var/www/localhost/htdocs/dashboard.js

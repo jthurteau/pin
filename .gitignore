@@ -1,0 +1,14 @@
+.vagrant
+local-instance.*
+local-dev.*
+!local-dev.example.*
+/public/vendor
+/vendor
+# IDE and OS files
+DS_Store
+Thumbs.db
+.idea/
+.gitattributes
+.buildpath
+.project
+.settings
