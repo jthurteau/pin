@@ -31,7 +31,7 @@ module Tm
   # https://alpinelinux.org/releases/
   # https://app.vagrantup.com/boxes/search?utf8=%E2%9C%93&sort=created&provider=&q=alpine
   # @platform = 'generic/alpine318' # not available 6/30/2023
-  @platform = 'generic/alpine317'
+  @platform = 'generic/alpine315'
 
   ##
   # default secret generation length

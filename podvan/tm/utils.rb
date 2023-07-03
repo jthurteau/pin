@@ -24,6 +24,7 @@ module TmUtils
   def self.assert_path(path)
     path_components = path ? path.split('/') : []
     confirmed_path = ''
+    path_components.shift() if path_components[0] == ''
     path_components.each do |p|
       current_path = "#{confirmed_path}/#{p}"
       initial_skip = '' == confirmed_path && current_path.end_with?(':')
